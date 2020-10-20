@@ -143,3 +143,13 @@ function sendTransaction(isAdding) {
       amountEl.value = "";
     });
 }
+
+document.querySelector("#add-btn").onclick = function () {
+  sendTransaction(true);
+  console.log("added funds!");
+};
+
+document.querySelector("#sub-btn").onclick = function () {
+  sendTransaction(false);
+  console.log("subtracted funds!");
+};
