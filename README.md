@@ -29,3 +29,19 @@ THEN that will be shown on the page, and added to their transaction history when
 https://glacial-wave-04506.herokuapp.com/
 
 ## Screenshot of Application
+<img src="public\images\budgetscreenshot.JPG" width="700px">
+
+## Technologies Used:
+*MongoDB
+
+*Mongoose.js
+
+*Express
+
+*Node.js
+
+*Heroku for deployment 
+
+*Morgan
+
+*Compression 
